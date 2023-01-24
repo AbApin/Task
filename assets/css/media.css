@@ -1,0 +1,196 @@
+@media screen and (min-width: 1200px) {
+  .comments_container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    display: none;
+  }
+  /* mobile_header */
+  .mobile_header_wrap {
+    position: fixed;
+    top: 5px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid #c90000;
+    transition: all 0.3s ease-in-out;
+  }
+  .mobile_top_header {
+    display: flex;
+    align-items: center;
+    background: #202223 url(../../assets/img/strip.svg) repeat no-repeat 0 100%;
+    padding: 6px 10px 10px;
+  }
+  .mobile_bottom_header .mobile_logo img {
+    width: 100%;
+    max-width: 118px;
+  }
+  .mobile_top_header a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0 6px;
+  }
+  .mobile_top_header .signup {
+    margin: 0 10px 0 auto;
+    position: relative;
+  }
+  .mobile_top_header .signup:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    top: 50%;
+    right: -4px;
+    transform: translateY(-50%);
+    background-color: grey;
+  }
+  .mobile_bottom_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+  }
+  .mobile_bottom_header .user_btn,
+  .mobile_bottom_header .menu_btn {
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    border: 1px solid #a1a6a9;
+    padding: 5px 9px;
+    border-radius: 4px;
+  }
+  .mobile_bottom_header .mobile_logo {
+    width: 100%;
+    max-width: 118px;
+  }
+  .mobile_bottom_header .user_btn,
+  .mobile_bottom_header .menu_btn {
+    font-size: 16px;
+    color: #000000;
+    display: block;
+    border: 1px solid #a1a6a9;
+    padding: 5px 9px;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* header */
+  .mobile_bottom_header {
+    margin-top: 30px;
+  }
+
+  /* content */
+  .content {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 110px;
+  }
+  .intro_right {
+    display: none;
+  }
+  .intro {
+    display: block !important;
+    padding: 20px;
+  }
+  .comennts {
+    padding: 0 20px;
+  }
+  .comments_inner {
+    width: 100%;
+  }
+  #back-to-top {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* content */
+  .content_title {
+    line-height: 1.35;
+    font-size: 28px;
+  }
+
+  /* comments */
+  .comments_container {
+    padding: 0;
+  }
+
+  /* bitcoin */
+  .bitcoin {
+    padding: 5px 0;
+  }
+  .bitcoin_btn {
+    font-size: 14px;
+    padding: 5px 2px;
+  }
+
+  /* footer */
+  .footer_top {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_top_follow {
+    position: static;
+    width: 100%;
+  }
+  .footer_top_follow img {
+    margin: 10px auto;
+  }
+  .footer_top_policy {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .footer_top_policy a {
+    width: 100%;
+    position: static;
+    margin: 0;
+    height: auto;
+  }
+  .footer_links {
+    flex-direction: column;
+  }
+  .footer_link a:after {
+    content: none;
+  }
+
+  /* notification */
+  .notification-top {
+    display: block;
+  }
+  .notification-bottom {
+    display: none;
+  }
+  .notification-image img {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 499px) {
+  .intro_left_btn {
+    font-size: 20px;
+    width: 100%;
+  }
+  .info_left_title {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .read-more-button {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+  .read-more-button img {
+    width: 20px !important;
+  }
+}
